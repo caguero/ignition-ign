@@ -15,6 +15,7 @@ module Ignition
       puts 'I cannot find any available "ign" command:'
       puts "\t* Did you install any ignition library?"
       puts "\t* Did you set the IGN_CONFIG_PATH environment variable?"
+      puts "\t    E.g.: export IGN_CONFIG_PATH=$HOME/local/share/ignition"
       exit(-1)
     end
 
