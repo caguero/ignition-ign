@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'ignition/Ign'
+require 'ignition/ign'
 
 Ign.execute(ARGV.size, ARGV.pack('p**'))
