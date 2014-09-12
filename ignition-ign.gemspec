@@ -9,7 +9,12 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Carlos Agüero"]
   spec.email         = ["caguero@osrfoundation.org"]
   spec.summary       = %q{A command line interface to the ignition tools.}
-  spec.description   = %q{A command line interface to the ignition tools.}
+  spec.description   = %q{This module provides the 'ign' command line tool. This
+                       command will allow you to use the functionality provided
+                       by the ignition libraries installed in your system. For
+                       example, if libignition-transport is installed in your
+                       system, you should be able to run `ign topic -l` to
+                       print the list of available topics.}
   spec.homepage      = "http://ignitionrobotics.org/"
   spec.license       = "Apache 2.0"
 
