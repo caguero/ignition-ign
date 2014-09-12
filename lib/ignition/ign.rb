@@ -5,6 +5,8 @@ require "ignition/ign/version"
 
 module Ignition
   module Ign
+    extend DL::Importer
+
     commands = {}
 
     conf_directory = '/usr/share/ignition/'
